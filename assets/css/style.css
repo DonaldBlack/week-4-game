@@ -1,0 +1,141 @@
+
+body {
+    border: 20px solid #000000; 
+    background-image:url("../images/breaking_bad.0.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.header {
+    text-align: center;
+    background-color:rgb(0, 162, 255);
+    color: #ffffff;
+    height: 5%;
+    padding: 1%;
+}
+
+.left {
+    float: left;
+    width: 47%;
+    max-width: 47%;
+    border: 2px solid #582c11;
+    margin: 1%;
+}
+
+.right {
+    
+    float: left;
+    width: 47%;
+    max-width: 47%;
+    border: 2px solid #582c11;
+    margin: 1% 0 0 2%;
+}
+
+.clearfix {
+    /*overflow: auto;*/
+    clear: both;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background: rgb(0, 162, 255);
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(11, 202, 37);
+   
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+  
+}
+
+section h3, h2, p, div {
+    margin: 10px 15px 10px 15px;
+}
+
+div p {
+    font-size: 18px;
+    color: white;
+   
+}
+
+img {
+    height: 250px;
+    width: 170px;
+}
+
+button {
+    margin: 10px;
+    border: 2px solid #582c11;
+    color: white;
+}
+
+hr {
+    display: none ;
+    color: white;
+}
+
+/***********Media Screens**************/
+
+@media screen and (max-width: 980px){
+    img {
+        height: 200px;
+        width: 140px;
+    }
+    body {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .left {
+        width: 95%;
+        max-width: 95%;
+    
+    }
+
+    body {
+        width: 640px;
+    }
+    .right {
+        width: 95%;
+        max-width: 95%;
+        display: inline-flex;
+        height: 50px;
+        margin-left: 1%;
+    }
+    hr {
+        display: block;
+        margin: 6px 10px;
+    }
+    div p {
+        font-size: 16px;
+        margin: 15px 10px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    button {
+        width: 20%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+}
